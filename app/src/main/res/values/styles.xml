@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme_dark" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@mipmap/splash</item>
+        <item name="colorPrimary">@color/black_background_272643</item>
+        <item name="colorPrimaryDark">@color/black_background_272643</item>
+        <item name="colorAccent">@color/black_background_272643</item>
+        <item name="android:textAllCaps">false</item>
+
+        <!--自定义属性-->
+        <item name="titleBgColor">@color/black_background_010123</item><!--标题背景颜色-->
+        <item name="titleTextColor">@color/white_textcolor</item><!--标题文字颜色-->
+        <item name="bgColor">@color/black_background_010123</item><!--页面背景颜色-->
+        <item name="home_left_menu">@mipmap/home_left_white_menu</item><!--首页左边按钮-->
+
+
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@mipmap/splash</item>
+        <item name="colorPrimary">@color/white_background</item>
+        <item name="colorPrimaryDark">@color/white_background</item>
+        <item name="colorAccent">@color/white_background</item>
+        <item name="android:textAllCaps">false</item>
+
+        <item name="titleBgColor">@color/white_background</item> <!--标题背景颜色-->
+        <item name="titleTextColor">@color/black_textcolor_333333</item><!--标题文字颜色-->
+        <item name="bgColor">@color/gray_background_F7F7F7</item><!--页面背景颜色-->
+        <item name="home_left_menu">@mipmap/home_left_black_menu</item><!--首页左边按钮-->
+
+
+
+    </style>
+
+    <!-- 功能按钮 -->
+    <style name="functionText">
+        <item name="android:textColor">@color/white_background</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+    <!-- dialogActivity 设置 -->
+    <style name="dialog_activity" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <!-- dialogActivity 设置 -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+
+    <style name="myschedule_current_month_tv">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>

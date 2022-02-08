@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/bgColor"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/layout_home_item_title_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height_50" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_10"
+        android:layout_marginRight="@dimen/margin_right_10"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/white_coner_bg_5"
+            android:padding="@dimen/padding_top_10">
+
+            <ImageView
+                android:id="@+id/iv_workers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/resources_workforce_icon" />
+
+            <TextView
+                android:id="@+id/tv_workers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_10"
+                android:layout_toRightOf="@+id/iv_workers"
+                android:text="@string/resources_workforce_workers"
+                android:textColor="@color/gray_textcolor"
+                android:textSize="@dimen/textsize_12" />
+
+            <TextView
+                android:id="@+id/tv_workers_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_workers"
+                android:layout_alignLeft="@+id/tv_workers"
+                android:layout_marginTop="@dimen/margin_top_5"
+                android:layout_toRightOf="@+id/iv_workers"
+                android:text="3030"
+                android:textColor="@color/black_textcolor_333333"
+                android:textSize="@dimen/textsize_12" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_10"
+            android:layout_weight="1"
+            android:background="@drawable/white_coner_bg_5"
+            android:padding="@dimen/padding_top_10">
+
+            <ImageView
+                android:id="@+id/iv_staff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/resources_workforce_staff" />
+
+            <TextView
+                android:id="@+id/tv_staff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_10"
+                android:layout_toRightOf="@+id/iv_staff"
+                android:text="@string/resources_workforce_staff"
+                android:textColor="@color/gray_textcolor"
+                android:textSize="@dimen/textsize_12" />
+
+            <TextView
+                android:id="@+id/tv_staff_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_staff"
+                android:layout_alignLeft="@+id/tv_staff"
+                android:layout_marginTop="@dimen/margin_top_5"
+                android:layout_toRightOf="@+id/iv_staff"
+                android:text="3030"
+                android:textColor="@color/black_textcolor_333333"
+                android:textSize="@dimen/textsize_12" />
+
+
+        </RelativeLayout>
+
+        <!--        resources_main_con_total_equipment-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_coner_bg_5"
+        android:layout_marginTop="@dimen/margin_top_10"
+        android:layout_marginLeft="@dimen/margin_left_10"
+        android:layout_marginRight="@dimen/margin_right_10"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/barchart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_10"
+            android:background="@color/white_background"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

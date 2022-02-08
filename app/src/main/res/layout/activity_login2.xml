@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_swith_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_top_10"
+            android:ellipsize="end"
+            android:padding="10dp"
+            android:text="@string/swith_language"
+            android:textColor="@color/blue_textcolor_39bcca"
+            android:textSize="@dimen/textsize_14" />
+
+        <TextView
+            android:id="@+id/tv_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="English"
+            android:textColor="@color/blue_textcolor_39bcca"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="中文"
+            android:textColor="@color/blue_textcolor_39bcca"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/login_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_swith_language"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_30"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/cms" />
+
+    <TextView
+        android:id="@+id/tv_cms_version_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_picture"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_right_15"
+        android:text="V1.2.0.26"
+        android:textColor="@color/blue_textcolor_39bcca"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_cms_version_code"
+        android:layout_marginTop="50dp"
+        android:background="@color/gray_background_F6F6F6"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height_45"
+        android:layout_below="@+id/view1"
+        android:layout_marginLeft="@dimen/margin_left_30"
+        android:layout_marginRight="@dimen/margin_right_30"
+        android:background="@drawable/login_et_content_radius"
+        android:drawableLeft="@mipmap/login_user"
+        android:hint="@string/hint_enter_name"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="5dp"
+        android:textColorHint="@color/gray_textcolor_D2D2D2"
+        android:textSize="@dimen/textsize_15" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/et_name"
+        android:background="@color/gray_background_F6F6F6"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_pswd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height_45"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="@dimen/margin_left_30"
+        android:layout_marginTop="@dimen/margin_top_20"
+        android:layout_marginRight="@dimen/margin_right_30"
+        android:background="@drawable/login_et_content_radius"
+        android:drawableLeft="@mipmap/login_pwd"
+        android:hint="@string/hint_enter_pswd"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="5dp"
+        android:textColorHint="@color/gray_textcolor_D2D2D2"
+        android:textSize="@dimen/textsize_15" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/et_pswd"
+        android:background="@color/gray_background_F6F6F6"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height_45"
+        android:layout_below="@id/view3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="27.5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_button_shape"
+        android:text="@string/btn_sign_in"
+        android:textColor="@color/white_textcolor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_alignLeft="@+id/btn_login"
+        android:layout_marginTop="@dimen/margin_top_20"
+        android:layout_marginBottom="3dp"
+        android:ellipsize="end"
+        android:paddingLeft="0dp"
+        android:paddingRight="30dp"
+        android:singleLine="true"
+        android:text="@string/find_password"
+        android:textColor="@color/blue_textcolor_39bcca"
+        android:textSize="@dimen/textsize_12" />
+
+    <TextView
+        android:id="@+id/register_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toLeftOf="@+id/register"
+        android:background="@null"
+        android:text="@string/register_msg"
+        android:textColor="@color/blue_textcolor_39bcca"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="3dp"
+        android:background="@null"
+        android:text="@string/register_user"
+        android:textColor="@color/blue_textcolor_39bcca"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/version_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ltd_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="@dimen/margin_bottom_15"
+        android:textColor="@color/gray_textcolor_C3C3C3"
+        android:textSize="@dimen/textsize_10" />
+
+    <TextView
+        android:id="@+id/ltd_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="@dimen/margin_bottom_20"
+        android:text="BES (SG) Technology Pte. Ltd. ©"
+        android:textColor="@color/gray_textcolor_C3C3C3"
+        android:textSize="@dimen/textsize_10" />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ZXing二维码扫描 -->
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_frame">#ff88ae00</color>
+    <!--<color name="defualt_blue">#2ea3fe</color>-->
+
+    <!-- 背景 -->
+    <color name="white_background">#FFFFFF</color><!-- 白色背景 -->
+    <color name="black_background_000000">#000000</color><!-- 筛选表格的字体颜色 -->
+    <color name="black_background_272643">#272643</color>
+    <color name="black_background_010123">#010123</color>
+
+    <color name="blue_background">#39BCCA</color><!--深绿色背景-->
+    <color name="blue_background_95DCD4">#5ed1fc</color>
+    <color name="blue_background_30B2FC">#30B2FC</color>
+    <color name="blue_background_06b6c9">#06b6c9</color>
+    <color name="blue_background_30c6d6">#30c6d6</color>
+    <color name="blue_background_9ADAFE">#9ADAFE</color>
+    <color name="blue_background_B1FBFD">#B1FBFD</color>
+    <color name="blue_background_e4f8fb">#e4f8fb</color>
+
+
+    <color name="green_background_96dfae">#96dfae</color>
+    <color name="green_background_ADEAC2">#ADEAC2</color>
+
+    <color name="gray_background_FAFAFA">#FAFAFA</color><!-- 输入框的字体的颜色 -->
+    <color name="gray_background_D7D7D7">#D7D7D7</color><!-- 灰色背景 -->
+    <color name="gray_background_F6F6F6">#F6F6F6</color><!--灰色背景颜色,分割线颜色-->
+    <color name="gray_background_F7F7F7">#F7F7F7</color>
+
+    <color name="red_backgroundcolor_FA7783">#FA7783</color>
+    <color name="orange_background_FECEB5">#FECEB5</color>
+    <color name="orange_background_fa9054">#fa9054</color>
+    <color name="orange_background_FF6600">#FF6600</color>
+    <color name="orange_background_FDD3BE">#FDD3BE</color>
+    <color name="red_background_ffff0000">#ffff0000</color>
+
+    <color name="dlp_orange_before_bg_FF9900">#FF9900</color>
+    <color name="dlp_green_after_bg_33CC00">#33CC00</color>
+
+    <color name="green_background_56DF31">#56DF31</color>
+    <color name="green_background_57A32D">#57A32D</color>
+    <color name="orange_background_DF6231">#DF6231</color>
+
+    <color name="purple_colors_5564FF">#5564FF</color>
+
+    <!-- 字体颜色 -->
+    <color name="white_textcolor">#FFFFFF</color><!-- 白色字体颜色 -->
+    <color name="black_textcolor_000000">#000000</color><!--黑色-->
+    <color name="black_textcolor_303133">#303133</color><!--黑色颜色-->
+    <color name="black_textcolor_333333">#333333</color><!-- 黑色字体颜色 -->
+    <color name="black_textcolor_606266">#606266</color><!--黑色颜色-->
+    <color name="black_textcolor_666666">#666666</color>
+
+    <color name="gray_textcolor">#999999</color>
+    <color name="gray_textcolor_BBBBBB">#BBBBBB</color>
+    <color name="gray_textcolor_D2D2D2">#D2D2D2</color>
+    <color name="gray_textcolor_C3C3C3">#C3C3C3</color>
+    <color name="edittext_textcolor">#b3b3b3</color><!-- 输入框的字体的颜色 -->
+
+    <color name="blue_textcolor_39bcca">#39BCCA</color><!--蓝色-->
+    <color name="blue_status_textcolor">#39BCCA</color><!-- 列表中审批中的字体颜色 -->
+    <color name="blue_textcolor_69a790">#69A790</color>
+    <color name="green_status_318106">#318106</color>
+    <color name="green_status_548235">#548235</color>
+    <color name="green_status_4ACC98">#4ACC98</color>
+
+    <color name="orange_textcolor_FA844a">#FA844a</color>
+    <color name="orange_textcolor_FA8631">#FA8631</color>
+    <color name="orange_textcolor_F9BD40">#F9BD40</color>
+    <color name="orange_DA5E1D">#DA5E1D</color>
+    <color name="red_textcolor_F56C6C">#F56C6C</color>
+    <color name="orange_textcolor_F5B238">#F5B238</color>
+
+
+
+    <!-- 筛选表格的分割线颜色 -->
+    <color name="white_linecolor">#FFFFFF</color><!-- 线条的颜色 -->
+    <color name="black_dividerlinecolor">#000000</color><!--黑色-->
+</resources>

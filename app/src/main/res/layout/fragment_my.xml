@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_background"
+                android:paddingTop="@dimen/padding_top_15">
+
+                <ImageView
+                    android:id="@+id/iv_face"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="@dimen/margin_left_25" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_20"
+                    android:layout_marginTop="@dimen/margin_top_10"
+                    android:layout_toRightOf="@+id/iv_face"
+                    android:textColor="@color/black_textcolor_303133"
+                    android:textSize="@dimen/textsize_20"
+                    tools:text="张三" />
+
+                <TextView
+                    android:id="@+id/tv_role_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_name"
+                    android:layout_alignLeft="@+id/tv_name"
+                    android:layout_marginTop="@dimen/margin_top_15"
+                    android:layout_toRightOf="@+id/iv_face"
+                    android:textColor="@color/black_textcolor_606266"
+                    android:textSize="@dimen/textsize_14"
+                    tools:text="Project Manager(PM)" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/security_manager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height_50"
+                android:layout_marginTop="@dimen/margin_top_30"
+                android:layout_marginRight="@dimen/margin_right_10"
+                android:background="@drawable/item_bg_pressed_and_normal"
+                android:drawableLeft="@mipmap/my_security"
+                android:drawableRight="@mipmap/arrow_right"
+                android:drawablePadding="6dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_left_12"
+                android:paddingRight="@dimen/padding_right_12"
+                android:text="@string/setting_security_management"
+                android:textColor="@color/black_textcolor_303133"
+                android:textSize="@dimen/textsize_15" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/margin_left_18"
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/margin_right_18"
+                android:background="@color/gray_background_F6F6F6" />
+
+            <TextView
+                android:id="@+id/electronic_signature"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height_54"
+                android:layout_marginRight="@dimen/margin_right_10"
+                android:background="@drawable/item_bg_pressed_and_normal"
+                android:drawableLeft="@mipmap/my_signature"
+                android:drawableRight="@mipmap/arrow_right"
+                android:drawablePadding="6dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_left_12"
+                android:paddingRight="@dimen/padding_right_12"
+                android:text="@string/electronic_signature"
+                android:textColor="@color/black_textcolor_303133"
+                android:textSize="@dimen/textsize_15"
+                android:visibility="gone" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/margin_left_18"
+                android:layout_marginRight="@dimen/margin_right_18"
+                android:background="@color/gray_background_F6F6F6"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_background"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/check_update"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/item_height_54"
+                        android:layout_marginRight="@dimen/margin_right_10"
+                        android:background="@drawable/item_bg_pressed_and_normal"
+                        android:drawableLeft="@mipmap/my_about_us"
+                        android:drawableRight="@mipmap/arrow_right"
+                        android:drawablePadding="6dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/padding_left_12"
+                        android:paddingRight="@dimen/padding_right_12"
+                        android:text="@string/setting_check_for_update"
+                        android:textColor="@color/black_textcolor_303133"
+                        android:textSize="@dimen/textsize_15"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/iv_dot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@mipmap/dot"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/margin_left_18"
+                    android:layout_marginRight="@dimen/margin_right_18"
+                    android:background="@color/gray_background_F6F6F6" />
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/item_bg_pressed_and_normal"
+                    android:drawableRight="@mipmap/arrow_right_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_left_15"
+                    android:paddingRight="10dp"
+                    android:text="@string/setting_version_introduced"
+                    android:textColor="@color/black_textcolor_303133"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray_background_F6F6F6"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/about_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/item_height_54"
+                    android:layout_marginRight="@dimen/margin_right_10"
+                    android:background="@drawable/item_bg_pressed_and_normal"
+                    android:drawableLeft="@mipmap/my_update"
+                    android:drawableRight="@mipmap/arrow_right"
+                    android:drawablePadding="6dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_left_12"
+                    android:paddingRight="@dimen/padding_right_12"
+                    android:text="@string/setting_about_us"
+                    android:textColor="@color/black_textcolor_303133"
+                    android:textSize="@dimen/textsize_15" />
+
+
+                <TextView
+                    android:id="@+id/tv_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/item_bg_pressed_and_normal"
+                    android:drawableRight="@mipmap/arrow_right_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_left_15"
+                    android:paddingRight="10dp"
+                    android:text="@string/setting_about_us"
+                    android:textColor="@color/black_textcolor_303133"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray_background_F6F6F6"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_permission_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/item_bg_pressed_and_normal"
+                    android:drawableRight="@mipmap/arrow_right_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_left_15"
+                    android:paddingRight="@dimen/padding_right_10"
+                    android:text="@string/setting_permissions"
+                    android:textColor="@color/black_textcolor_303133"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_background_F6F6F6"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/sign_out"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="@dimen/margin_left_38"
+                android:layout_marginTop="@dimen/margin_top_150"
+                android:layout_marginRight="@dimen/margin_right_38"
+                android:layout_marginBottom="@dimen/margin_bottom_100"
+                android:background="@drawable/new_button_next_shape"
+                android:gravity="center"
+                android:text="@string/btn_sign_out"
+                android:textColor="@color/white_textcolor"
+                android:textSize="@dimen/textsize_17" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/gray_background_F6F6F6"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

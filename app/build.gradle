@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+
+android {
+    compileSdk 30
+
+    defaultConfig {
+        applicationId "com.catail.vision"
+        minSdk 30
+        targetSdk 30
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.android.test.runner.MultiDexTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets', 'src/main/assets/']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.test:core-ktx:1.3.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8'
+    implementation 'androidx.core:core-ktx:1.3.2'
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'//recyclerview
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    implementation 'com.google.code.gson:gson:2.4'
+
+    implementation 'com.lzy.net:okgo:3.0.4'//okgo 网络访问
+    implementation 'com.zhy:okhttputils:2.6.2'//okhttputils
+
+    implementation 'com.blankj:utilcode:1.20.3'  //各种工具类
+
+    //glide
+    implementation "com.github.bumptech.glide:glide:4.10.0"
+    implementation "com.github.bumptech.glide:compiler:4.10.0"
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.10.0"
+
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'//沉浸式状态栏插件
+    implementation 'me.jessyan:autosize:1.2.1'//屏幕适配
+
+    //FlycoTabLayout_Lib
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.0@aar'
+    implementation project(':MPChartLib')//饼状图  柱状图
+//    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+}

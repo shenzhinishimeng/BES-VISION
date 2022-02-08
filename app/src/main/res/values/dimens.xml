@@ -1,0 +1,152 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="status_bar_height">0dp</dimen>
+
+    <!--宽高-->
+    <dimen name="item_height_30">30dp</dimen>
+    <dimen name="item_height_35">35dp</dimen>
+    <dimen name="item_height_38">38dp</dimen>
+    <dimen name="item_height_40">40dp</dimen>
+    <dimen name="item_height_44">44dp</dimen>
+    <dimen name="item_height_45">45dp</dimen>
+    <dimen name="item_height_50">50dp</dimen>
+    <dimen name="item_height_54">54dp</dimen>
+    <dimen name="item_height_44x2">88dp</dimen>
+    <dimen name="item_height_60">60dp</dimen>
+    <dimen name="item_height_64">64dp</dimen>
+
+    <dimen name="titlebar_height_48">48dp</dimen>
+    <dimen name="title_height_35">35dp</dimen>
+
+    <!--间距-->
+    <dimen name="margin_left_5">5dp</dimen>
+    <dimen name="margin_left_8">8dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="margin_left_12">12dp</dimen>
+    <dimen name="margin_left_14">14dp</dimen>
+    <dimen name="margin_left_15">15dp</dimen>
+    <dimen name="margin_left_18">18dp</dimen>
+    <dimen name="margin_left_20">20dp</dimen>
+    <dimen name="margin_left_22">22dp</dimen>
+    <dimen name="margin_left_25">25dp</dimen>
+    <dimen name="margin_left_26">26dp</dimen>
+    <dimen name="margin_left_28">28dp</dimen>
+    <dimen name="margin_left_30">30dp</dimen>
+    <dimen name="margin_left_35">35dp</dimen>
+    <dimen name="margin_left_38">38dp</dimen>
+    <dimen name="margin_left_42">42dp</dimen>
+    <dimen name="margin_left_43">43dp</dimen>
+    <dimen name="margin_left_65">65dp</dimen>
+
+
+    <dimen name="margin_right_5">5dp</dimen>
+    <dimen name="margin_right_8">8dp</dimen>
+    <dimen name="margin_right_10">10dp</dimen>
+    <dimen name="margin_right_12">12dp</dimen>
+    <dimen name="margin_right_14">14dp</dimen>
+    <dimen name="margin_right_15">15dp</dimen>
+    <dimen name="margin_right_18">18dp</dimen>
+    <dimen name="margin_right_20">20dp</dimen>
+    <dimen name="margin_right_22">22dp</dimen>
+    <dimen name="margin_right_25">25dp</dimen>
+    <dimen name="margin_right_28">28dp</dimen>
+    <dimen name="margin_right_30">30dp</dimen>
+    <dimen name="margin_right_35">35dp</dimen>
+    <dimen name="margin_right_38">38dp</dimen>
+    <dimen name="margin_right_42">42dp</dimen>
+    <dimen name="margin_right_55">55dp</dimen>
+
+    <dimen name="margin_top_5">5dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_12">12dp</dimen>
+    <dimen name="margin_top_15">15dp</dimen>
+    <dimen name="margin_top_16">16dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="margin_top_25">25dp</dimen>
+    <dimen name="margin_top_26">26dp</dimen>
+    <dimen name="margin_top_28">28dp</dimen>
+    <dimen name="margin_top_30">30dp</dimen>
+    <dimen name="margin_top_35">35dp</dimen>
+    <dimen name="margin_top_45">45dp</dimen>
+    <dimen name="margin_top_60">60dp</dimen>
+    <dimen name="margin_top_150">150dp</dimen>
+
+    <dimen name="margin_bottom_5">5dp</dimen>
+    <dimen name="margin_bottom_10">10dp</dimen>
+    <dimen name="margin_bottom_15">15dp</dimen>
+    <dimen name="margin_bottom_20">20dp</dimen>
+    <dimen name="margin_bottom_25">25dp</dimen>
+    <dimen name="margin_bottom_30">30dp</dimen>
+    <dimen name="margin_bottom_60">60dp</dimen>
+    <dimen name="margin_bottom_100">100dp</dimen>
+
+    <dimen name="padding_left_5">5dp</dimen>
+    <dimen name="padding_left_10">10dp</dimen>
+    <dimen name="padding_left_12">12dp</dimen>
+    <dimen name="padding_left_14">14dp</dimen>
+    <dimen name="padding_left_15">15dp</dimen>
+    <dimen name="padding_left_18">18dp</dimen>
+    <dimen name="padding_left_20">20dp</dimen>
+    <dimen name="padding_left_22">22dp</dimen>
+    <dimen name="padding_left_25">25dp</dimen>
+    <dimen name="padding_left_30">30dp</dimen>
+    <dimen name="padding_left_35">35dp</dimen>
+    <dimen name="padding_left_40">40dp</dimen>
+    <dimen name="padding_left_45">45dp</dimen>
+
+    <dimen name="padding_right_5">5dp</dimen>
+    <dimen name="padding_right_10">10dp</dimen>
+    <dimen name="padding_right_12">12dp</dimen>
+    <dimen name="padding_right_14">14dp</dimen>
+    <dimen name="padding_right_15">15dp</dimen>
+    <dimen name="padding_right_18">18dp</dimen>
+    <dimen name="padding_right_20">20dp</dimen>
+    <dimen name="padding_right_22">22dp</dimen>
+    <dimen name="padding_right_25">25dp</dimen>
+    <dimen name="padding_right_30">30dp</dimen>
+    <dimen name="padding_right_35">35dp</dimen>
+    <dimen name="padding_right_55">55dp</dimen>
+
+    <dimen name="padding_top_5">5dp</dimen>
+    <dimen name="padding_top_10">10dp</dimen>
+    <dimen name="padding_top_15">15dp</dimen>
+
+    <dimen name="padding_bottom_5">5dp</dimen>
+    <dimen name="padding_bottom_10">10dp</dimen>
+    <dimen name="padding_bottom_15">15dp</dimen>
+
+    <!--字体-->
+    <dimen name="textsize_8">8sp</dimen>
+    <dimen name="textsize_9">9sp</dimen>
+    <dimen name="textsize_10">10sp</dimen>
+    <dimen name="textsize_11">11sp</dimen>
+    <dimen name="textsize_12">12sp</dimen>
+    <dimen name="textsize_13">13sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="textsize_15">15sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_17">17sp</dimen>
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="textsize_19">19sp</dimen>
+    <dimen name="textsize_20">20sp</dimen>
+    <dimen name="textsize_21">21sp</dimen>
+    <dimen name="textsize_22">22sp</dimen>
+    <dimen name="textsize_23">23sp</dimen>
+    <dimen name="textsize_24">24sp</dimen>
+    <dimen name="textsize_25">25sp</dimen>
+    <dimen name="textsize_26">26sp</dimen>
+    <dimen name="textsize_27">27sp</dimen>
+    <dimen name="textsize_28">28sp</dimen>
+    <dimen name="textsize_29">29sp</dimen>
+    <dimen name="textsize_30">30sp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="parent_expandable_list_height">40dp</dimen>
+
+    <dimen name="parent_expandable_list_group_padding_left">10dp</dimen>
+
+
+</resources>

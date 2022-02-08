@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleBgColor" format="color" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="bgColor" format="color" />
+    <attr name="home_left_menu" format="reference"></attr>
+
+</resources>

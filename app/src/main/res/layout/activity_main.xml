@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.catail.bes_vision.view.FitsSystemWindowsLinearlayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.catail.bes_vision.view.NoScrollViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_background_F6F6F6" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_group"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white_background"
+            android:orientation="horizontal"
+            android:paddingTop="4dp">
+
+            <!-- 去单选项按钮效果android:button="@null" -->
+            <RadioButton
+                android:visibility="gone"
+                android:id="@+id/rb_home_company"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableTop="@drawable/home_company_button"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:text="@string/home_company"
+                android:textColor="@color/gray_textcolor_BBBBBB"
+                android:textSize="@dimen/textsize_12" />
+
+
+            <RadioButton
+                android:id="@+id/rb_home_project"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableTop="@drawable/home_company_button"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:text="@string/home_project"
+                android:textColor="@color/gray_textcolor_BBBBBB"
+                android:textSize="@dimen/textsize_12" />
+
+
+            <RadioButton
+                android:id="@+id/rb_home_my"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableTop="@drawable/home_my_button"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:text="Me"
+                android:textColor="@color/gray_textcolor_BBBBBB"
+                android:textSize="@dimen/textsize_12" />
+
+        </RadioGroup>
+
+    </com.catail.bes_vision.view.FitsSystemWindowsLinearlayout>
+
+    <!-- 抽屉内容 -->
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white_background"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_left_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

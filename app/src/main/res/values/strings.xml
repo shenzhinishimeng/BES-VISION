@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">BES VISION</string>
+    <!--登录界面-->
+    <string name="hint_enter_name">Username</string>
+    <string name="register_user">Register?</string>
+    <string name="register_msg">""</string>
+    <string name="find_password">Forgot your password?</string>
+    <string name="btn_sign_in">Login</string>
+    <string name="hint_enter_pswd">Password</string>
+    <string name="processing">Processing...</string>
+    <string name="referrals">Alert</string>
+    <string name="quit_word">Your account is being logged in by another user</string>
+    <string name="log_out">Log Out</string>
+    <string name="login_again">Login Again</string>
+    <string name="next">Next</string>
+    <string name="swith_language">Language</string>
+    <string name="signature_preview">Signature preview</string>
+    <string name="home_company">Company</string>
+    <string name="home_project">Project</string>
+    <!--我的界面-->
+    <string name="btn_sign_out">Logout</string>
+    <string name="setting_security_management">Security</string>
+    <string name="setting_check_for_update">Check for Update</string>
+    <string name="setting_version_introduced">Version</string>
+    <string name="setting_about_us">About Us</string>
+    <string name="electronic_signature">Electronic Signature</string>
+    <string name="setting_permissions">Permissions</string>
+    <string name="sign_thickness">Thickness</string>
+    <string name="sign_colors"> Colors</string>
+    <string name="sign_upload_result">Signature upload successful</string>
+    <string name="sign_upload_result_fail">The signature upload failed</string>
+
+    <!--忘记密码页面-->
+    <string name="please_enter_your_phone_number">please enter your phone number</string>
+    <string name="send_again">send again</string>
+    <string name="get_code">get code</string>
+    <string name="please_enter_the_verification_code">verification code</string>
+    <string name="retrieve_password">Retrieve Password</string>
+    <string name="verification_code_error">Verification code error</string>
+    <string name="verify_that_the_phone_is_inconsistent_with_the_input_phone_number">Verify that the phone is inconsistent with the input phone number</string>
+    <string name="the_captcha_can_not_be_empty">The captcha can not be empty</string>
+    <string name="the_phone_number_can_not_be_empty">The phone number can not be empty</string>
+    <string name="validation_timeout">The validation code timed out. Please try again</string>
+    <string name="reset_new_password">New password:</string>
+    <string name="please_enter_your_password">Please enter the 6-8 digit password</string>
+    <string name="reset_comfirm_the_new_password">Confirm the new password:</string>
+    <string name="please_make_sure_the_password">Please make sure the password</string>
+    <string name="resetpwd_confirm">Submit</string>
+    <string name="restPassword_title">Set the CMS password</string>
+    <string name="password_modification_failed">Password modification failed</string>
+    <string name="the_password_must_be_bits">The password must be 6-8 bits</string>
+    <string name="the_two_passwords_do_not_agree">The two passwords do not agree</string>
+    <string name="verify_that_the_password_is_not_empty">Verify that the password is not empty</string>
+    <string name="the_password_cannot_be_empty">The password cannot be empty</string>
+    <string name="old_psw">Original Password</string>
+    <string name="change_password">Modify Password</string>
+    <string name="new_psw2">Confirm Password</string>
+    <string name="new_psw">New Password</string>
+    <string name="input_old_psw">original password</string>
+    <string name="input_new_psw">new password</string>
+    <string name="input_new_psw2">confirmation password</string>
+    <string name="psw_verification">The new password can not be the same as the original password</string>
+    <string name="new_verfication">The new password is not consistent with the confirmation password</string>
+    <string name="change_success">Password modification success, please re login</string>
+    <string name="please_enter_your_mobile_phone_number">Please enter your mobile phone number</string>
+
+    <!-- company页面-->
+    <string name="company_function1">Total Staff Registered(By Project)</string>
+    <string name="company_function2">Total Worker Registered(By Project)</string>
+    <string name="company_function3">Total Major Equipment Registered(By Project)</string>
+    <string name="company_function4">Daily Non-reportable Incident(By Project)</string>
+    <string name="company_function5">Daily Reportable Incident(By Porject)</string>
+    <string name="company_function6">Monthly WSH Inspection(Top 5 Findings by Type)</string>
+    <string name="company_function7">Total Permit-to-Work(PTW) Submitted(Cum. By Project)</string>
+    <string name="company_function8">Total toolbox Meeting(TBM)Submitted(Cum. By Project)</string>
+
+    <!--project页面-->
+    <string name="preject_function1">Resources</string>
+    <string name="preject_function2">Safety</string>
+    <string name="preject_function3">Statistics</string>
+    <string name="preject_function4">HCS</string>
+    <string name="preject_function5">DfMA</string>
+    <string name="preject_function6">RFI/RFA</string>
+    <string name="preject_function7">Quality</string>
+    <string name="preject_function8">TowerCrane</string>
+    <string name="resources_workforce">Workforce</string>
+    <string name="resources_equipment">Equipment</string>
+    <string name="more">MORE</string>
+
+    <!--Resources模块-->
+    <string name="resources_workforce_workers">Workforce/Workers</string>
+    <string name="resources_workforce_staff">Workforce/Staff</string>
+    <string name="resources_main_con_total_equipment">Main Con Total Equipment</string>
+
+    <!-- error -->
+    <string name="data_parse_exception">Data parsing exception</string>
+    <string name="login_exception">Login exception, parameter is insufficient</string>
+    <string name="no_data">No Data</string>
+    <!-- Version update -->
+    <string name="version_update">Version update</string>
+    <string name="found_update">Found that the new version is updated, and if not updated, may affect the use.</string>
+    <string name="leatest_version">Currently for the latest version</string>
+    <string name="commit_askdlg_OK">OK</string>
+    <string name="commit_askdlg_Cancel">Cancel</string>
+
+</resources>
